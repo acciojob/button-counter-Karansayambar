@@ -1,7 +1,8 @@
 
 import React from "react";
 import './../styles/App.css';
-import Counter from "./counter";
+import Counter from "./counter.js"; 
+
 
 const App = () => {
   return (
