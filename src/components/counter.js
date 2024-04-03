@@ -1,6 +1,6 @@
 import {component} from "react"
 
-class counter extends component{
+class Counter extends component{
     constructor(props){
         super(props);
         this.state = {count : 0};
@@ -14,11 +14,11 @@ class counter extends component{
         return(
             <>
             <p>Button clicked {this.state.count} times</p>
-            <button onClick={increment}></button>
+            <button onClick={this.increment}>Click me</button>
             </>
         )
     }
 }
 
 
-export default App;
+export default Counter;
