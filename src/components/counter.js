@@ -1,4 +1,4 @@
-import {component} from "react"
+import {react,component} from "react"
 
 class Counter extends component{
     constructor(props){
