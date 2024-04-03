@@ -14,7 +14,7 @@ class Counter extends component{
         return(
             <>
             <p>Button clicked {this.state.count} times</p>
-            <button onClick={this.increment}>Click me</button>
+            <button onClick={increment}>Click me</button>
             </>
         )
     }
