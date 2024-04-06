@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import {react,component} from "react"
 
 const AppCounter = () => {
     const [count, setCount] = useState(0);
@@ -13,5 +13,6 @@ const AppCounter = () => {
         </>
     )
 }
+
 
 export default Counter;
