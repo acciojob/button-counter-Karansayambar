@@ -1,14 +1,19 @@
 
 import React from "react";
 import './../styles/App.css';
-import Counter from "./counter.js"; 
 
 
 const App = () => {
+  const [count, setCount] = useState(0);
+  function increment(){
+      const crr = count;
+      setCount(crr + 1);
+  }
   return (
-    <div>
-        <Counter/>
-    </div>
+      <>
+      <p>Button clicked {count} times</p>
+      <button onClick={() => increment()}>Click me</button>
+      </>
   )
 }
 
