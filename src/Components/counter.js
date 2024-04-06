@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-const AppCounter = () => {
+const Counter = () => {
     const [count, setCount] = useState(0);
     function increment(){
         const crr = count;
