@@ -9,7 +9,7 @@ const AppCounter = () => {
     return (
         <>
         <p>Button clicked {count} times</p>
-        <button onClick={() => increment}>Click me</button>
+        <button onClick={() => increment()}>Click me</button>
         </>
     )
 }

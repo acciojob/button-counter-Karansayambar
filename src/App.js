@@ -1,7 +1,7 @@
 
 import React from "react";
 import './../styles/App.css';
-import Counter from "./counter.js"; 
+import Counter from "./Components/counter.js"; 
 
 
 const App = () => {
